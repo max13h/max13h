@@ -43,7 +43,7 @@
 
 I'm Maxime, a 22-year-old French guy from Strasbourg 🇫🇷
 <br>
-I used to be a professional basketball player, I quit because the lifestyle didn't suit me. That's why I started coding a year ago, for a better way of life 😎.
+I used to be a professional basketball player, I quit because the lifestyle didn't suit me anymore. That's why I started coding a year ago, for a better way of life 😎.
 
 <br>
 
