@@ -1,6 +1,9 @@
-<h1>Hi, I'm max13h</h1>
+<h1 align="center">Hi, I'm max13h 👋</h1>
 
-> From basketball player 🏀 to full stack web developer 💪
+<p align="end">
+  <em>From basketball player 🏀 to full stack web developer 💪</em>
+</p>
+
 
 <br>
 
