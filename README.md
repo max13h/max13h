@@ -1,13 +1,13 @@
 <h1 align="center">Hi, I'm max13h 👋</h1>
 
 <p align="end">
-  <em>From basketball player 🏀 to full stack web developer 💪</em>
+  <em>From basketball player</em> 🏀 <em>to full stack web developer</em> 💪
 </p>
 
 
 <br>
 
-• **Graduate of the <a href="https://www.lewagon.com">LeWagon <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" width="20" align="center"/> Fullstack Web Development bootcamp</a>**
+• **Graduate of the <a href="https://www.lewagon.com">LeWagon <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" width="20" align="center"/> Fullstack Web Development Bootcamp</a>**
 
 • **My team and I have released a working web application:  <a href="https://github.com/max13h/the_favorite/">The Favorite <img alt="The Favorite logo" src="https://www.the-favorite.app/assets/crown-7b51220f9ee4d88afb93b97814119cb5237774c7d340ab4f839929f612ecc6d6.svg" width="20px" align="center"/></a>** 
 
@@ -41,11 +41,9 @@
 
 <h3 align="center">Who I am ?</h3>
 
-<p>
-I'm <strong>Maxime</strong>, a 22 year old French guy from Strasbourg 🇫🇷
+I'm Maxime, a 22-year-old French guy from Strasbourg 🇫🇷
 <br>
-I used to play professional basketball player, I quit because the lifestyle didn't suit me. That's how I got into coding a year ago, for a better way of life 😎
-</p>
+I used to be a professional basketball player, I quit because the lifestyle didn't suit me. That's why I started coding a year ago, for a better way of life 😎.
 
 <br>
 
