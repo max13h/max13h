@@ -1,21 +1,18 @@
 <h1 align="center">Hi, I'm max13h 👋</h1>
 
-<p align="end">
-  <em>From basketball player</em> 🏀 <em>to full stack web developer</em> 💪
+<p>
+  <em>From basketball player</em> 🏀 <em>to full stack web developer</em> 🕶️
 </p>
-
 
 <br>
 
 • **Graduate of the <a href="https://www.lewagon.com">LeWagon <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" width="20" align="center"/> Fullstack Web Development Bootcamp</a>**
 
-• **My team and I have released a working web application:  <a href="https://github.com/max13h/the_favorite/">The Favorite <img alt="The Favorite logo" src="https://www.the-favorite.app/assets/crown-7b51220f9ee4d88afb93b97814119cb5237774c7d340ab4f839929f612ecc6d6.svg" width="20px" align="center"/></a>** 
+• **My team and I have released a working web application:  <a href="https://github.com/max13h/the_favorite/">The Favorite <img alt="The Favorite logo" src="https://www.the-favorite.app/assets/crown-7b51220f9ee4d88afb93b97814119cb5237774c7d340ab4f839929f612ecc6d6.svg" width="20px"/></a>** 
 
-• **I’m currently working on <a href="https://github.com/max13h/mangeons.io/">mangeons.io <img alt="mangeons.io logo" src="https://mangeons-io-59fcab913464.herokuapp.com/_nuxt/LITTLE_LIGHT_LOGO.74098cc5.svg" width="35px" align="center"/></a>**
+• **I’m currently working on <a href="https://github.com/max13h/mangeons.io/">mangeons.io <img alt="mangeons.io logo" src="https://mangeons-io-59fcab913464.herokuapp.com/_nuxt/LITTLE_LIGHT_LOGO.74098cc5.svg" width="35px" /></a>**
 
-<br>
-<br>
-<br>
+---
 
 <h3 align="center">Contact me if you're interested in working together 🤝</h3>
 
@@ -33,10 +30,6 @@
   <a href="https://twitter.com/max13h" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="max13h" height="30"  /></a>
 </p>
 
-<br>
-<br>
-<br>
-
 ---
 
 <h3 align="center">Who I am ?</h3>
@@ -44,8 +37,6 @@
 I'm Maxime, a 22-year-old French guy from Strasbourg 🇫🇷
 <br>
 I used to be a professional basketball player, I quit because the lifestyle didn't suit me anymore. That's why I started coding a year ago, for a better way of life 😎.
-
-<br>
 
 <h3 align="center">My Stack</h3>
 
