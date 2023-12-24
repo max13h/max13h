@@ -8,35 +8,15 @@
 
 • **Graduate of the <a href="https://www.lewagon.com">LeWagon <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" width="20" align="center"/> Fullstack Web Development Bootcamp</a>**
 
-• **My team and I have released a working web application:  <a href="https://github.com/max13h/the_favorite/">The Favorite <img alt="The Favorite logo" src="https://www.the-favorite.app/assets/crown-7b51220f9ee4d88afb93b97814119cb5237774c7d340ab4f839929f612ecc6d6.svg" width="20px"/></a>** 
+• **My team and I have released a working web application:  <a href="https://github.com/max13h/the_favorite/">The Favorite <img alt="The Favorite logo" src="https://raw.githubusercontent.com/max13h/the_favorite/master/app/assets/images/crown.svg" width="20px"/></a>** 
 
 • **I’m currently working on <a href="https://github.com/max13h/mangeons.io/">mangeons.io <img alt="mangeons.io logo" src="https://mangeons-io-59fcab913464.herokuapp.com/_nuxt/LITTLE_LIGHT_LOGO.74098cc5.svg" width="35px" /></a>**
-
----
-
-<h3 align="center">Contact me if you're interested in working together 🤝</h3>
-
-<p align="center">
-  <a href="https://linkedin.com/in/maxime-hmae" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="maxime-hmae" height="30" /></a>
-  &nbsp;
-  &nbsp;
-  &nbsp;
-  &nbsp;
-  <a href="https://instagram.com/max13.h" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="max13h" height="30" /></a>
-  &nbsp;
-  &nbsp;
-  &nbsp;
-  &nbsp;
-  <a href="https://twitter.com/max13h" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="max13h" height="30"  /></a>
-</p>
-
----
 
 <h3 align="center">Who I am ?</h3>
 
 I'm Maxime, a 22-year-old French guy from Strasbourg 🇫🇷
 <br>
-I used to be a professional basketball player, I quit because the lifestyle didn't suit me anymore. That's why I started coding a year ago, for a better way of life 😎.
+I used to be a professional basketball player, I quit because the lifestyle didn't suit me anymore. That's why I started coding a year ago, for a better way of life.
 
 <h3 align="center">My Stack</h3>
 
@@ -73,14 +53,17 @@ I used to be a professional basketball player, I quit because the lifestyle didn
 <a href="https://github.com/puppeteer/puppeteer" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/pptrdev/pptrdev-official.svg" alt="puppeteer" title="puppeteer" height="40"/></a>
 </p>
 
-
-<h4>Others</h4>
-
-<p align="left">
-<a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" title="git" height="40"/></a>
-<a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" title="linux" height="40"/></a>
-<a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" title="figma" width="40"/></a>
-<a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://www.adobe.com/content/dam/acom/one-console/icons_rebrand/ps_appicon.svg" alt="photoshop" title="photoshop" width="40"/></a>
-<a href="https://www.adobe.com/products/xd.html" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Adobe_XD_CC_icon.svg" alt="xd" title="xd" width="40"/></a>
-<a href="https://www.blender.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Blender_logo_no_text.svg/1280px-Blender_logo_no_text.svg.png" alt="blender" title="blender" width="40"/></a>
+<p align="right">
+  <a href="https://linkedin.com/in/maxime-hmae" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="maxime-hmae" height="30" /></a>
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  <a href="https://instagram.com/max13.h" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="max13h" height="30" /></a>
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  <a href="https://twitter.com/max13h" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="max13h" height="30"  /></a>
 </p>
+
