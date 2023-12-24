@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm max13h 👋</h1>
 
 <p>
-  <em>From basketball player</em> 🏀 <em>to full stack web developer</em> 🕶️
+  <em>From basketball player to full stack web developer</em>
 </p>
 
 <br>
