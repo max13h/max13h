@@ -1,0 +1,6 @@
+[submodule "apps/portfolio"]
+	path = apps/portfolio
+	url = git@github.com:max13h/portfolio.git
+[submodule "apps/blog"]
+	path = apps/blog
+	url = git@github.com:max13h/blog.git
