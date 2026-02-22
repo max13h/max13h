@@ -1,3 +1,13 @@
 packages:
-  - "apps/*"
-  - "packages/*"
+  - apps/*
+  - packages/*
+
+catalog:
+  '@astrojs/vue': ^5.1.4
+  astro: ^5.17.2
+  astro-icon: ^1.1.5
+  vue: ^3.5.28
+
+ignoredBuiltDependencies:
+  - esbuild
+  - sharp

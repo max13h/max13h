@@ -1,0 +1,12 @@
+{
+  "name": "max13h",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev:blog": "pnpm --filter blog dev",
+    "dev:portfolio": "pnpm --filter portfolio dev",
+    "build": "pnpm --filter './apps/*' build",
+    "lint": "pnpm --filter './apps/*' lint",
+    "format": "pnpm --filter './apps/*' format"
+  }
+}

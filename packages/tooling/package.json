@@ -1,0 +1,26 @@
+{
+  "name": "@max13h/tooling",
+  "version": "0.0.1",
+  "type": "module",
+  "exports": {
+    "./eslint": "./eslint.mjs",
+    "./prettier": "./prettier.mjs",
+    "./tsconfig/astro.json": "./tsconfig/astro.json"
+  },
+  "dependencies": {
+    "@eslint/eslintrc": "^3.3.3",
+    "@eslint/js": "^10.0.1",
+    "@typescript-eslint/eslint-plugin": "^8.56.0",
+    "@typescript-eslint/parser": "^8.56.0",
+    "eslint-plugin-astro": "^1.6.0",
+    "eslint-plugin-md": "^1.0.19",
+    "eslint-plugin-vue": "^10.8.0",
+    "prettier-plugin-astro": "^0.14.1",
+    "prettier-plugin-vue": "^1.1.6"
+  },
+  "peerDependencies": {
+    "astro": ">=5",
+    "eslint": ">=10",
+    "prettier": ">=3"
+  }
+}
