@@ -1,0 +1,39 @@
+---
+import UINavbar from "../../../../packages/ui/src/components/UINavbar.js"
+import { t, getLocaleFromUrl } from "../i18n/translations"
+
+interface Props {
+  title?: string
+  switchPath?: string
+}
+const { title, switchPath } = Astro.props
+const locale = getLocaleFromUrl(Astro.url)
+const siteTitle = t(locale, "layout.title")
+---
+
+<html lang={locale}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="stylesheet" type="text/css" href="/styles/index.css" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{(title ? title + " | " : "") + siteTitle}</title>
+    <script is:inline define:vars={{ locale }}>
+      localStorage.setItem("locale", locale)
+    </script>
+  </head>
+  <body>
+    <UINavbar switchPath={switchPath} />
+    <slot />
+  </body>
+</html>
+
+<style>
+  body {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+  }
+</style>

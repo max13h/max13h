@@ -1,0 +1,62 @@
+---
+import { Icon } from "astro-icon/components"
+import { getLocaleFromUrl, t } from "../../i18n/translations"
+
+const locale = getLocaleFromUrl(Astro.url)
+---
+
+<button class="back-to-top" aria-label={t(locale, "article.backToTop")}>
+  <Icon name="arrow-up" title={t(locale, "article.backToTop")} />
+</button>
+
+<script>
+  const btn = document.querySelector(".back-to-top") as HTMLElement | null
+
+  if (btn) {
+    window.addEventListener("scroll", () => {
+      btn.classList.toggle("visible", window.scrollY > 300)
+    })
+
+    btn.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" })
+    })
+  }
+</script>
+
+<style>
+  .back-to-top {
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 50%;
+    background: var(--bg-color-2);
+    color: var(--text-color);
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition:
+      opacity 0.3s,
+      background 0.2s;
+    z-index: 10;
+
+    &.visible {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    &:hover {
+      background: var(--color-action);
+    }
+
+    & svg {
+      width: 1.4rem;
+      height: 1.4rem;
+    }
+  }
+</style>
