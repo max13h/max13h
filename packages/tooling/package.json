@@ -7,7 +7,7 @@
     "./prettier": "./prettier.mjs",
     "./tsconfig/astro.json": "./tsconfig/astro.json"
   },
-  "dependencies": {
+  "devDependencies": {
     "@eslint/eslintrc": "^3.3.3",
     "@eslint/js": "^10.0.1",
     "@typescript-eslint/eslint-plugin": "^8.56.0",
