@@ -1,12 +1,17 @@
 ---
 import { Icon } from "astro-icon/components"
-import { getLocaleFromUrl, t } from "../../i18n/translations"
+import { getLocaleFromUrl } from "@max13h/i18n"
 
 const locale = getLocaleFromUrl(Astro.url)
+const labelByLocale = {
+  en: "Back to top of the page",
+  fr: "Retour au sommet de la page",
+} as const
+const label = labelByLocale[locale] ?? labelByLocale.fr
 ---
 
-<button class="back-to-top" aria-label={t(locale, "article.backToTop")}>
-  <Icon name="arrow-up" title={t(locale, "article.backToTop")} />
+<button class="back-to-top" aria-label={label}>
+  <Icon name="arrow-up" title={label} />
 </button>
 
 <script>

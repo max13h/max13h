@@ -1,28 +1,49 @@
 ---
 import { Icon } from "astro-icon/components"
+import { getLocaleFromUrl } from "@max13h/i18n"
+
+const locale = getLocaleFromUrl(Astro.url)
+
+const textByLocale = {
+  en: {
+    button:
+      "Choose website theme between light mode, dark mode or adapt to system",
+    default: "Website theme related to user default configuration",
+    light: "Website theme is set to light",
+    dark: "Website theme is set to dark",
+  },
+  fr: {
+    button: "Choisir le theme du site entre mode clair, mode sombre ou systeme",
+    default: "Theme du site lie a la configuration par defaut",
+    light: "Theme du site defini sur clair",
+    dark: "Theme du site defini sur sombre",
+  },
+} as const
+
+const labels = textByLocale[locale] ?? textByLocale.fr
 
 const icons = [
   {
     theme: "default",
     name: "monitor",
-    title: "Website theme related to user default configuration",
+    title: labels.default,
   },
   {
     theme: "light",
     name: "weather-sunny",
-    title: "Website theme is set to light",
+    title: labels.light,
   },
   {
     theme: "dark",
     name: "weather-moon",
-    title: "Website theme is set to dark",
+    title: labels.dark,
   },
 ]
 ---
 
 <button
   id="themeToggle"
-  aria-label="Choose website theme between light mode, dark mode or adapt to system"
+  aria-label={labels.button}
   name="themeToggle"
   type="button"
 >

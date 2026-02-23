@@ -2,10 +2,13 @@
 import { Icon } from "astro-icon/components"
 import UIDarkModeBtn from "./UIDarkModeBtn.astro"
 import UILangSwitchBtn from "./UILangSwitchBtn.astro"
-import { getLocaleFromUrl } from "../../i18n/translations"
+import { getLocaleFromUrl } from "@max13h/i18n"
+import faviconUrl from "../assets/favicon.svg"
 
 interface Props {
   switchPath?: string
+  siteLabel?: string
+  siteHref?: string
 }
 
 type IconElement = {
@@ -14,28 +17,44 @@ type IconElement = {
   title: string
 }
 
-const { switchPath } = Astro.props
+const { switchPath, siteLabel, siteHref } = Astro.props
 
 const locale = getLocaleFromUrl(Astro.url)
+const labelsByLocale = {
+  en: {
+    homeAlt: "Link to home page",
+    github: "Link to my GitHub profile",
+    linkedin: "Link to my LinkedIn profile",
+  },
+  fr: {
+    homeAlt: "Lien vers la page d'accueil",
+    github: "Lien vers mon profil GitHub",
+    linkedin: "Lien vers mon profil LinkedIn",
+  },
+} as const
+const labels = labelsByLocale[locale] ?? labelsByLocale.fr
 
 const icons: IconElement[] = [
   {
     link: "https://github.com/max13h/",
     name: "github",
-    title: "Link to my github profil",
+    title: labels.github,
   },
   {
     link: "https://www.linkedin.com/in/hmae/",
     name: "linkedin",
-    title: "Link to my linkedin profil",
+    title: labels.linkedin,
   },
 ]
+
+const homeLabel = siteLabel ?? "blog.hmae.fr"
+const homeHref = siteHref ?? `/${locale}/`
 ---
 
 <nav>
-  <a href={`/${locale}/`} class="home">
-    <img src="/favicon.svg" alt="Link to home page" />
-    <span>blog.hmae.fr</span>
+  <a href={homeHref} class="home">
+    <img src={faviconUrl.src} alt={labels.homeAlt} />
+    <span>{homeLabel}</span>
   </a>
 
   <div class="links">

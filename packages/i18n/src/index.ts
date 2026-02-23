@@ -18,9 +18,7 @@ const resolve = (obj: TranslationValue, key: string): string | undefined => {
 export const createTranslations = (translations: Translations) => {
   return (locale: Locale, key: string): string => {
     return (
-      resolve(translations[locale], key) ??
-      resolve(translations.fr, key) ??
-      key
+      resolve(translations[locale], key) ?? resolve(translations.fr, key) ?? key
     )
   }
 }
