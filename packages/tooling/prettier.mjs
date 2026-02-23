@@ -1,4 +1,4 @@
-import prettierPluginAstro from "prettier-plugin-astro"
+import * as prettierPluginAstro from "prettier-plugin-astro"
 import prettierPluginVue from "prettier-plugin-vue"
 
 export default {
