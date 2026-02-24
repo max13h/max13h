@@ -2,16 +2,29 @@
 import "../styles/index.css"
 import UINavbar from "../components/UINavbar.astro"
 import { getLocaleFromUrl } from "@max13h/i18n"
+import type { RelatedLink } from "../types"
 
 interface Props {
   title: string
+  showNavbar?: boolean
+  center?: boolean
+  relatedLinks?: RelatedLink[]
   faviconUrl: string
   switchPath?: string
   siteLabel?: string
   siteHref?: string
 }
 
-const { title, faviconUrl, switchPath, siteLabel, siteHref } = Astro.props
+const {
+  title,
+  showNavbar = true,
+  center = false,
+  relatedLinks,
+  faviconUrl,
+  switchPath,
+  siteLabel,
+  siteHref,
+} = Astro.props
 const locale = getLocaleFromUrl(Astro.url)
 ---
 
@@ -27,12 +40,17 @@ const locale = getLocaleFromUrl(Astro.url)
       localStorage.setItem("locale", locale)
     </script>
   </head>
-  <body>
-    <UINavbar
-      switchPath={switchPath}
-      siteLabel={siteLabel}
-      siteHref={siteHref}
-    />
+  <body class:list={[center && "center"]}>
+    {
+      showNavbar && (
+        <UINavbar
+          relatedLinks={relatedLinks}
+          switchPath={switchPath}
+          siteLabel={siteLabel}
+          siteHref={siteHref}
+        />
+      )
+    }
     <slot />
   </body>
 </html>
@@ -43,5 +61,10 @@ const locale = getLocaleFromUrl(Astro.url)
     flex-direction: column;
     position: relative;
     align-items: center;
+  }
+
+  :global(.center) {
+    justify-content: center;
+    height: 100%;
   }
 </style>
