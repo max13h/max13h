@@ -64,3 +64,11 @@ h6 {
     font-size: 1.125rem;
   }
 }
+
+a {
+  color: var(--color-action);
+
+  &:visited {
+    color: var(--color-action-2);
+  }
+}

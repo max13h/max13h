@@ -1,5 +1,6 @@
 :root {
   --color-action: #10771f;
+  --color-action-2: oklch(from var(--color-action) l c 300);
   --color-decoration: #54238d;
 
   --color-base-50: #f3fff3;
@@ -26,6 +27,9 @@
   --color-neutral-950: #0a0a0a;
 
   --color-light: var(--color-base-50);
+  --color-light-2: oklch(from var(--color-base-50) 1 c h);
+  --color-light-3: oklch(from var(--color-base-50) 0.2 c h);
+  --color-light-4: oklch(from var(--color-base-50) 0.3 c h);
   --color-dark: var(--color-base-950);
 
   --bg-color: light-dark(var(--color-light), var(--color-dark));
