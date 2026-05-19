@@ -8,13 +8,13 @@
     "./tsconfig/astro.json": "./tsconfig/astro.json"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3.3.3",
+    "@eslint/eslintrc": "^3.3.5",
     "@eslint/js": "^10.0.1",
-    "@typescript-eslint/eslint-plugin": "^8.56.0",
-    "@typescript-eslint/parser": "^8.56.0",
-    "eslint-plugin-astro": "^1.6.0",
+    "@typescript-eslint/eslint-plugin": "^8.59.3",
+    "@typescript-eslint/parser": "^8.59.3",
+    "eslint-plugin-astro": "^1.7.0",
     "eslint-plugin-md": "^1.0.19",
-    "eslint-plugin-vue": "^10.8.0",
+    "eslint-plugin-vue": "^10.9.1",
     "prettier-plugin-astro": "^0.14.1",
     "prettier-plugin-vue": "^1.1.6"
   },

@@ -3,10 +3,10 @@ packages:
   - packages/*
 
 catalog:
-  "@astrojs/vue": ^5.1.4
-  astro: ^5.17.2
+  "@astrojs/vue": ^6.0.1
+  astro: ^6.3.3
   astro-icon: ^1.1.5
-  vue: ^3.5.28
+  vue: ^3.5.34
 
 ignoredBuiltDependencies:
   - esbuild
