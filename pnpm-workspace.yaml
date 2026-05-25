@@ -2,6 +2,10 @@ packages:
   - apps/*
   - packages/*
 
+allowBuilds:
+  esbuild: false
+  sharp: false
+
 catalog:
   "@astrojs/vue": ^6.0.1
   astro: ^6.3.3
